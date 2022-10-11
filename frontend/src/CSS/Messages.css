@@ -1,8 +1,8 @@
-.ToHome {
+.to-home {
     text-align: center;
 }
 
-.gridLayout {
+.grid-layout {
   display: grid;
   width: 100%;
   height: 500px;
@@ -11,12 +11,12 @@
   color: #080808;
 }
 
-.People {
+.people {
   background-color: #ABD9E4;
   line-height: 50px
 }
 
-.Text {
+.text {
     background-color: #ABD9E4;
     line-height: 50px
   }

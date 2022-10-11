@@ -1,6 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
-import './Messages.css';
+import './CSS/App.css';
 import Home from './Views/Home.js';
 // import Contact from './Views/Contact.js';
 // import Error from './Views/Error.js';
