@@ -1,0 +1,22 @@
+.ToHome {
+    text-align: center;
+}
+
+.gridLayout {
+  display: grid;
+  width: 100%;
+  height: 500px;
+  grid-template-columns: 25% 50%;
+  gap: 10px;
+  color: #080808;
+}
+
+.People {
+  background-color: #ABD9E4;
+  line-height: 50px
+}
+
+.Text {
+    background-color: #ABD9E4;
+    line-height: 50px
+  }
