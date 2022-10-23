@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './CSS/App.css';
+import './App.css';
 import Home from './Views/Home.js';
 // import Contact from './Views/Contact.js';
 // import Error from './Views/Error.js';
