@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Home from './Views/Home.js';
+import Contact from "./Views/Contact.js";
 // import Contact from './Views/Contact.js';
 // import Error from './Views/Error.js';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
