@@ -1,0 +1,22 @@
+.to-home {
+    text-align: center;
+}
+
+.grid-layout {
+  display: grid;
+  width: 100%;
+  height: 500px;
+  grid-template-columns: 25% 50%;
+  gap: 10px;
+  color: #080808;
+}
+
+.people {
+  background-color: #ABD9E4;
+  line-height: 50px
+}
+
+.text {
+    background-color: #ABD9E4;
+    line-height: 50px
+  }
