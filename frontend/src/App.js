@@ -1,21 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import Home from './Views/Home.js';
-// import Contact from './Views/Contact.js';
-// import Error from './Views/Error.js';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { useState } from "react";
+import axios from 'axios';
 
-
-function App() {
+function App(props) {
+  const [quote, setQuote] = useState("");
+  async function wait() {
+    const randQuote = await axios.get("https://api.quotable.io/random");
+    setQuote(randQuote.data.content);
+  }
+  wait();
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        {/* <Route path="/Contact" element={<Contact />} /> */}
-        {/* <Route path="/*" element={<Error />} /> */}
-      </Routes>
-    </BrowserRouter>
-  );
+    <div>{quote}</div>
+  )
 }
-
 export default App;
