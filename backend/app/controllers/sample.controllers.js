@@ -29,8 +29,8 @@ exports.findByName = async (req, res) => {
 
 exports.addOne = async (req, res) => {
     const newSample = new Sample({
-        title: "new!",
-        name: "newName"
+        title: "Unique Title",
+        name: "Jason"
     });
 
     newSample.save()
