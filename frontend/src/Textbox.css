@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 .Textbox {
     height: 10vh;
     width: 30vh;
     background-color: aqua;
 }
+=======
+.textbox {
+  height: 10vh;
+  width: 30vh;
+  background-color: aqua;
+}
+>>>>>>> 34827b4a381c0a61b98dd9aa4e4f3fc76bfed705
