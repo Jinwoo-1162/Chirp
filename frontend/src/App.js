@@ -6,6 +6,8 @@ import Contact from "./Views/Contact";
 import Home from "./Views/Home";
 import Error from "./Views/Error";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { React, useEffect } from React;
+import axios from axios;
 
 function App() {
   return (
