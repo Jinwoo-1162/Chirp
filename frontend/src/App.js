@@ -24,8 +24,18 @@
 // export default App;
 
 import React from 'react';
+import Navbar from './Components/Navbar.js';
 import './App.css';
 function App() {    
-  return <div className = 'app'>React App</div>;
+  return <div className = 'app'>
+    <h1>Hey there this is the new twitter layout</h1>
+
+    { /* Navbar */ }
+    <Navbar/>
+
+    { /* Feed */ }
+
+    { /* What's New */ }
+  </div>;
 }
   export default App;
