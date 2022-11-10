@@ -1,8 +1,31 @@
 .icons {
     width: 2%;
-    margin-top: 0px;
+    padding: 20px;
 }
 
 #logo {
     width: 3%;
+}
+
+.navbarOption {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbarOption > h2 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.navbarOption:hover {
+    background-color: #ecf486;
+    border-radius: 30px;
+    color: var(--chirp-color);
+    transition: color 100ms ease-out;
+}
+
+.navbarOption--active {
+    color: var(--chirp-color);
 }

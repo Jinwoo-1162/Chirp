@@ -28,7 +28,7 @@ import Navbar from './Components/Navbar.js';
 import './App.css';
 function App() {    
   return <div className = 'app'>
-    <h1>Hey there this is the new twitter layout</h1>
+    {/* <h1>Hey there this is the new twitter layout</h1> */}
 
     { /* Navbar */ }
     <Navbar/>

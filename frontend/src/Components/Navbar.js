@@ -18,14 +18,14 @@ function Navbar() {
             { /* logo icon */ }
             <img src={Logo} id="logo"/>
 
-            <NavbarOption icon=<img src={Home} class="icons" align="left"/> text="Home"/>
-            <NavbarOption icon=<img src={Explore} class="icons" align="left"/> text="Explore"/>
-            <NavbarOption icon=<img src={Notifications} class="icons" align="left"/> text="Notifications"/>
-            <NavbarOption icon=<img src={Messages} class="icons" align="left"/> text="Messages"/>
-            <NavbarOption icon=<img src={Bookmark} class="icons" align="left"/> text="Bookmarks"/>
-            <NavbarOption icon=<img src={Lists} class="icons" align="left"/> text="Lists"/>
-            <NavbarOption icon=<img src={Profile} class="icons" align="left"/> text="Profile"/>
-            <NavbarOption icon=<img src={More} class="icons" align="left"/> text="More"/>
+            <NavbarOption active icon=<img src={Home} class="icons" /> text="Home"/>
+            <NavbarOption icon=<img src={Explore} class="icons"/> text="Explore"/>
+            <NavbarOption icon=<img src={Notifications} class="icons"/> text="Notifications"/>
+            <NavbarOption icon=<img src={Messages} class="icons"/> text="Messages"/>
+            <NavbarOption icon=<img src={Bookmark} class="icons"/> text="Bookmarks"/>
+            <NavbarOption icon=<img src={Lists} class="icons"/> text="Lists"/>
+            <NavbarOption icon=<img src={Profile} class="icons"/> text="Profile"/>
+            <NavbarOption icon=<img src={More} class="icons"/> text="More"/>
             { /* home */ }
             { /* explore */ }
             { /* notifications */ }
@@ -36,6 +36,7 @@ function Navbar() {
             { /* more */ }
 
             { /* tweet button */ }
+            <button className="navbar__tweet" fullWidth>Chirp</button>
         </div>
     );
 }
