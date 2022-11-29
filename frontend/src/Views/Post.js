@@ -11,7 +11,7 @@ function Post({display, username, checkmark, text, image, profile}) {
     return (
         <div className='post'>
             <div className='post_profile'>
-                <img src={Profile}/>
+                <img src={profile}/>
             </div>
             <div className="post_body">
                 <div className="post_header">
