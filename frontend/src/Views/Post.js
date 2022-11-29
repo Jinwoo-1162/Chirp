@@ -11,23 +11,23 @@ function Post({display, username, checkmark, text, image, profile}) {
     return (
         <div className='post'>
             <div className='post_profile'>
-            <img src={Profile} id="icon_profile"/>
+                <img src={Profile}/>
             </div>
             <div className="post_body">
                 <div className="post_header">
                     <div className="header_text">
                         <h3>
-                            Joshua Wu{" "}
+                            {display}{" "}
                             <span className="post_span">
-                                <img src={Checkmark} id="checkmark_badge"/> @jo4467  
+                                {checkmark && <img src={Checkmark} id="checkmark_badge"/>} @{username}  
                             </span>
                         </h3>
                     </div>
                     <div className="header_description">
-                        <p>I love Overwatch. I swear on me mum that I will play this game until I win!</p>
+                        <p>{text}</p>
                     </div>
                 </div>
-                <img src="https://media.tenor.com/qIM8hK5MOMIAAAAC/overwatch.gif" alt=""/>
+                <img src={image} alt=""/>
                 <div className="post_footer">
                     <img src={Chat} id="chat_icon"/>
                     <img src={Rechirp} id="rechirp_icon"/>
