@@ -1,6 +1,7 @@
 import React from "react";
 import TweetBox from "../Views/TweetBox";
 import '../CSS/Feed.css';
+import Post from "../Views/Post.js";
 
 
 function Feed() {
@@ -13,58 +14,12 @@ function Feed() {
 
             {/* TweetBox */}
             <TweetBox/>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
-            <h2>ABC</h2>
             {/* Post */}
-            {/* Post */}
-            {/* Post */}
-            {/* Post */}
+            <Post/>
+            <Post/>
+            <Post/>
+            <Post/>
+            <Post/>
         </div>
     )
 }
