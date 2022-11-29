@@ -1,6 +1,7 @@
 import React from "react";
 import '../CSS/TweetBox.css';
-import Profile from "../Images/profile.png";
+import Profile from "../Images/profiletest.png";
+import NavbarOption from '../Views/NavbarOption.js';
 
 function TweetBox() {
     return (
@@ -10,7 +11,11 @@ function TweetBox() {
                     <img src={Profile} id="profile"/>
                     <input placeholder="What's happening?" type="text"/>
                 </div>
-                <button>Tweet</button>
+                <input 
+                    className="tweetBox_imageInput"
+                    placeholder="Enter image URL" 
+                    type="text"/>
+                <button className="tweetBox__tweetButton">Tweet</button>
             </form>
         </div>
     )

@@ -12,8 +12,55 @@ function Feed() {
             </div>
 
             {/* TweetBox */}
-            <TweetBox />
-
+            <TweetBox/>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
+            <h2>ABC</h2>
             {/* Post */}
             {/* Post */}
             {/* Post */}

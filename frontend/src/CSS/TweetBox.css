@@ -1,5 +1,5 @@
 #profile {
-    width: 10%;
+    width: 5%;
 }
 
 .tweetBox {
@@ -23,4 +23,22 @@
     margin-left: 20px;
     font-size: 20px;
     border: none;
+  }
+
+  .tweetBox__imageInput {
+    border: none;
+    padding: 10px;
+  }
+
+  .tweetBox__tweetButton {
+    margin-top: 20px;
+    margin-left: auto;
+    border-radius: 30px;
+    width: 80px;
+    height: 40px;
+    background-color: var(--chirp-color);
+    border: none;
+    color: white;
+    font-weight: 900;
+    text-transform: inherit;
   }
