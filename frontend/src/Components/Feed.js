@@ -45,14 +45,7 @@ function Feed() {
         ))} */}
 
 
-            <Post
-                display="Joshua Wu"
-                username="jo4467"
-                checkmark={true}
-                text="I love Overwatch. I swear on me mum that I will play this game until I wins!"
-                image="https://media.tenor.com/qIM8hK5MOMIAAAAC/overwatch.gif"
-                profile="https://cdn.discordapp.com/avatars/228818984340815872/73c1b9a69068e99776da7d0e469e451e.webp?size=128"
-            />
+            
             <Post
                 display="Jason Lei"
                 username="JayC"
@@ -60,6 +53,14 @@ function Feed() {
                 text="I love JoJo. I swear on me mum that I will keep watching until the end!"
                 image="https://media.tenor.com/JTudmgcE8ZIAAAAd/giorno-giovanna-jojo.gif"
                 profile="https://cdn.discordapp.com/avatars/454323721637855232/471a56b78d842a02f46df863cad24551.webp"
+            />
+            <Post
+                display="Joshua Wu"
+                username="jo4467"
+                checkmark={true}
+                text="I love Overwatch. I swear on me mum that I will play this game until I wins!"
+                image="https://media0.giphy.com/media/yZ5NMVSFMeBPGJmiAS/giphy.gif?cid=790b7611ea791c359d8c2934c9a5b71887a507c0c51365d6&rid=giphy.gif&ct=g"
+                profile="https://cdn.discordapp.com/avatars/228818984340815872/73c1b9a69068e99776da7d0e469e451e.webp?size=128"
             />
             <Post
                 display="Robert Langer"
